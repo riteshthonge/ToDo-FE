@@ -21,7 +21,7 @@ export const AppContextProvider = ({ children }) => {
     JSON.parse(localStorage.getItem("allTasks")) || []
   );
 
-  const backendUrl = "https://todo-be-6j1j.onrender.com";
+  const backendUrl = "https://todo-be-dg21.onrender.com";
   // const backendUrl = "http://localhost:4000";
 
   const getUserData = async () => {
